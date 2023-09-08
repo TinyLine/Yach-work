@@ -67,30 +67,35 @@ color: var(--primary-text-color)
 }
 
 .hero__menu{
-max-width: 1710px;
     text-align: right;
     padding-top: 118px;
-    padding-bottom: 118px;
-    background-repeat: no-repeat;
+        max-width: 1710px;
 }
 
 .hero__menu__title{
     color: var(--primary-text-color);
-    max-width: 554px;
-    font-weight: 500px;
     font-size: 60px;
-    line-height: -4.5;
-    letter-spacing: 0.06em;
+    line-height: 110%;
+    display: inline-flex;
+    flex-direction: column;
+     
+    
 }
 
 .hero__menu__text{
     color: var(--primary-text-color);
     font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.32px;
+    width: 539px;
 }
 
 .color__text{
  color: var(--primary-text-second-color);
  font-style: italic;
+margin-left: 250px;
 }
 
 .color__text__two{

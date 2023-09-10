@@ -40,7 +40,6 @@ body{
 }
 
 .menu__nav {
-   
     font-weight: 700;
     font-size: 14px;
     line-height: 2.8;
@@ -74,9 +73,8 @@ text-decoration: none;
 }
 
 .hero__menu{
-    text-align: right;
+    margin-left: 980px;
     padding-top: 118px;
-        max-width: 1710px;
 }
 
 .hero__menu__title{
@@ -85,8 +83,8 @@ text-decoration: none;
     line-height: 110%;
     display: inline-flex;
     flex-direction: column;
-     
-    
+    font-weight: 500;
+    width: 554px;
 }
 
 .hero__menu__text{
@@ -97,15 +95,43 @@ text-decoration: none;
     line-height: 140%;
     letter-spacing: -0.32px;
     width: 539px;
+    margin-top: -15px;
+    margin-bottom: 35px;
+
 }
 
 .color__text{
  color: var(--primary-text-second-color);
  font-style: italic;
-margin-left: 250px;
 }
 
 .color__text__two{
     color: var(--primary-text-three-color);
     font-style: italic;
+}
+
+.hero__menu__button__one{
+border-radius: 60px;
+padding: 14px 28px;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: -0.81px;
+color: var(--white, #F6F5EF);
+background: var(--light-green, #93ABAE);
+
+}
+
+.hero__menu__button__two{
+    margin-left: 11px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -0.81px;
+    padding: 14px 28px;
+    border-radius: 60px;
+    color: var(--primary-text-color);
+    background-color: var(--primary-color);
+    border: 1px solid var(--white, #F6F5EF);
 }

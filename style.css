@@ -89,13 +89,14 @@ text-decoration: none;
 
 .hero__menu__text{
     color: var(--primary-text-color);
-    font-style: italic;
+    font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 140%;
     letter-spacing: -0.32px;
     width: 539px;
-    margin-top: -15px;
+    line-height: 140%;
+    margin-top: -31px;
     margin-bottom: 35px;
 
 }
@@ -117,7 +118,8 @@ font-size: 18px;
 font-style: normal;
 font-weight: 700;
 letter-spacing: -0.81px;
-color: var(--white, #F6F5EF);
+cursor: pointer;
+color: var(--primary-text-color);
 background: var(--light-green, #93ABAE);
 
 }
@@ -131,7 +133,8 @@ background: var(--light-green, #93ABAE);
     letter-spacing: -0.81px;
     padding: 14px 28px;
     border-radius: 60px;
+    cursor: pointer;
     color: var(--primary-text-color);
     background-color: var(--primary-color);
-    border: 1px solid var(--white, #F6F5EF);
+    border: 1px solid var(--primary-text-color);
 }

@@ -138,3 +138,12 @@ background: var(--light-green, #93ABAE);
     background-color: var(--primary-color);
     border: 1px solid var(--primary-text-color);
 }
+
+.main__text{
+    color: var(--primary-text-color);
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+        letter-spacing: -1.44px;
+}

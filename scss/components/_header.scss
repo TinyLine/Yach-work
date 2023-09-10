@@ -1,0 +1,28 @@
+.title-header {
+    color: var(--primary-text-color);
+    margin-left: 21px;
+    text-decoration: none;
+}
+
+.header {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.menu__list {
+    margin-right: 24px;
+    color: var(--primary-text-color);
+
+}
+
+.menu__nav {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 2.8;
+    letter-spacing: 3%;
+}
+
+.menu {
+    display: flex;
+    margin-left: 680px;
+
+}

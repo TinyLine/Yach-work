@@ -5,3 +5,18 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.body {
+    background-color: var(--primary-color);
+}
+
+.list {
+    list-style: none;
+
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    font-style: normal;
+}

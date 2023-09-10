@@ -1,6 +1,6 @@
 .title-header {
     color: var(--primary-text-color);
-    margin-left: 21px;
+    margin-left: 241px;
     text-decoration: none;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .menu__nav {
-    font-weight: 700;
+    font-weight: 7000;
     font-size: 14px;
     line-height: 2.8;
     letter-spacing: 3%;
@@ -25,4 +25,9 @@
     display: flex;
     margin-left: 680px;
 
+}
+
+.navigation {
+    display: inline-flex;
+    align-items: center;
 }

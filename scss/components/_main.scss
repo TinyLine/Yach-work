@@ -29,6 +29,9 @@
     width: 183px;
     height: 242px;
     color:var(--primary-text-color);
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 302px;
 }
 
 .menu__li-two{
@@ -39,10 +42,17 @@
         width: 185px;
         height: 198px;
         color: var(--primary-text-color);
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 517px;
+        
+        
 }
 
 .menu__ul{
-    width: Hug (400px); height: Hug (242px); top: 913px; left: 848px; gap: 32px;
-   display: inline-flex;
-   align-items: left;
+    display: flex;
+        flex-wrap: wrap;
+        margin-left: 300px;
+        margin-top: -30px;
+        
 }

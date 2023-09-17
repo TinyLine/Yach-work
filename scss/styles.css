@@ -26,6 +26,7 @@
 }
 
 .menu__list {
+  list-style: none;
   margin-right: 24px;
   color: var(--primary-text-color);
 }
@@ -66,6 +67,8 @@ body {
 }
 
 .hero__menu {
+  display: flex;
+  position: relative;
   margin-left: 980px;
   padding-top: 118px;
 }
@@ -130,6 +133,52 @@ body {
   border: 1px solid var(--primary-text-color);
 }
 
+.hero-card {
+  background-image: url(/imgs/Ellipse-background.png);
+  width: 462.022px;
+  height: 651.365px;
+  flex-shrink: 0;
+  position: absolute;
+  left: -700px;
+  background-repeat: no-repeat;
+}
+
+.yacht-card {
+  margin-left: 20px;
+  margin-top: 152px;
+}
+
+.title-card {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: -2.7px;
+  margin-left: 35px;
+}
+
+.bottom-text-card {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: -0.81px;
+  width: 208px;
+  height: 36px;
+  display: inline-block;
+}
+
+.text-card-top {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  width: 96px;
+  margin-left: 30px;
+}
+
 .main__text {
   color: var(--primary-text-color);
   font-size: 32px;
@@ -153,6 +202,9 @@ body {
   width: 183px;
   height: 242px;
   color: var(--primary-text-color);
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 302px;
 }
 
 .menu__li-two {
@@ -163,14 +215,14 @@ body {
   width: 185px;
   height: 198px;
   color: var(--primary-text-color);
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 517px;
 }
 
 .menu__ul {
-  width: Hug 400px;
-  height: Hug 242px;
-  top: 913px;
-  left: 848px;
-  gap: 32px;
-  display: inline-flex;
-  align-items: left;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 300px;
+  margin-top: -30px;
 }/*# sourceMappingURL=styles.css.map */

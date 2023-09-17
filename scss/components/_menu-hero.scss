@@ -3,6 +3,7 @@
     position: relative;
     margin-left: 980px;
     padding-top: 118px;
+    
 }
 
 .hero__menu__title {
@@ -75,11 +76,13 @@
     position: absolute;
     left: -700px;
     background-repeat: no-repeat;  
+    
+     
 }
 
 .yacht-card{
     margin-left: 20px;
-    margin-top: 152px;
+    margin-top: -45px;
 }
 
 .title-card{
@@ -111,4 +114,9 @@ letter-spacing: 0.56px;
 text-transform: uppercase;
 width: 96px;
 margin-left: 30px;
+}
+
+.img-men-card{
+margin-left: 300px;
+margin-top: -80px;
 }

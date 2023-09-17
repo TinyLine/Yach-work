@@ -145,7 +145,7 @@ body {
 
 .yacht-card {
   margin-left: 20px;
-  margin-top: 152px;
+  margin-top: -45px;
 }
 
 .title-card {
@@ -179,6 +179,11 @@ body {
   margin-left: 30px;
 }
 
+.img-men-card {
+  margin-left: 300px;
+  margin-top: -80px;
+}
+
 .main__text {
   color: var(--primary-text-color);
   font-size: 32px;
@@ -190,8 +195,7 @@ body {
 }
 
 .main {
-  padding-top: 164px;
-  padding-bottom: 164px;
+  padding-top: 324px;
 }
 
 .menu__li {
@@ -202,9 +206,8 @@ body {
   width: 183px;
   height: 242px;
   color: var(--primary-text-color);
-  display: flex;
-  flex-wrap: wrap;
   margin-left: 302px;
+  display: flex;
 }
 
 .menu__li-two {
@@ -216,13 +219,7 @@ body {
   height: 198px;
   color: var(--primary-text-color);
   display: flex;
-  flex-wrap: wrap;
   margin-left: 517px;
-}
-
-.menu__ul {
+  margin-top: -422px;
   display: flex;
-  flex-wrap: wrap;
-  margin-left: 300px;
-  margin-top: -30px;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,11 +1,21 @@
+.header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.menu {
+    display: flex;
+    // margin-left: 680px;
+
+}
 .title-header {
     color: var(--primary-text-color);
     text-decoration: none;
+    margin-right: 781px;
 }
 
-.header {
-    border-bottom: 1px solid var(--border-color);
-}
+
 
 .menu__list {
     list-style: none;
@@ -21,11 +31,7 @@
     letter-spacing: 3%;
 }
 
-.menu {
-    display: flex;
-    margin-left: 680px;
 
-}
 
 .navigation {
     display: inline-flex;

@@ -1,3 +1,17 @@
+.main {
+    padding-top: 324px;
+
+}
+.main__box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__ul {
+    display: flex;
+    gap: 32px;
+}
+
 .main__text {
     color: var(--primary-text-color);
     font-size: 32px;
@@ -12,10 +26,7 @@
 
 }
 
-.main{
-    padding-top: 324px;
-    
-}
+
 
 .main__title{
 
@@ -29,8 +40,8 @@
     width: 183px;
     height: 242px;
     color:var(--primary-text-color);
-    margin-left: 302px;
-    display: flex;
+    // margin-left: 302px;
+    // display: flex;
 }
 
 .menu__li-two{
@@ -41,14 +52,11 @@
         width: 185px;
         height: 198px;
         color: var(--primary-text-color);
-         display: flex;
-        margin-left: 517px;
-        margin-top: -422px;
-        display: flex;
+        //  display: flex;
+        // margin-left: 517px;
+        // margin-top: -422px;
+        // display: flex;
         
         
 }
 
-.menu__ul{
- 
-}

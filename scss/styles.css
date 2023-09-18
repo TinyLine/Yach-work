@@ -16,13 +16,20 @@
   font-style: normal;
 }
 
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.menu {
+  display: flex;
+}
+
 .title-header {
   color: var(--primary-text-color);
   text-decoration: none;
-}
-
-.header {
-  border-bottom: 1px solid var(--border-color);
+  margin-right: 781px;
 }
 
 .menu__list {
@@ -36,11 +43,6 @@
   font-size: 14px;
   line-height: 2.8;
   letter-spacing: 3%;
-}
-
-.menu {
-  display: flex;
-  margin-left: 680px;
 }
 
 .navigation {
@@ -66,11 +68,53 @@ body {
   font-style: normal;
 }
 
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h3,
+h2,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+}
+
 .hero__menu {
   display: flex;
   position: relative;
   margin-left: 980px;
   padding-top: 118px;
+}
+
+.hero-card__icons {
+  display: flex;
 }
 
 .hero__menu__title {
@@ -134,13 +178,14 @@ body {
 }
 
 .hero-card {
-  background-image: url(/imgs/Ellipse-background.png);
+  background-image: url(/imgs/mask-group.png);
   width: 462.022px;
   height: 651.365px;
   flex-shrink: 0;
   position: absolute;
   left: -700px;
   background-repeat: no-repeat;
+  padding: 20px;
 }
 
 .yacht-card {
@@ -176,12 +221,26 @@ body {
   letter-spacing: 0.56px;
   text-transform: uppercase;
   width: 96px;
-  margin-left: 30px;
+  margin-top: 10px;
 }
 
 .img-men-card {
   margin-left: 300px;
   margin-top: -80px;
+}
+
+.main {
+  padding-top: 324px;
+}
+
+.main__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__ul {
+  display: flex;
+  gap: 32px;
 }
 
 .main__text {
@@ -194,10 +253,6 @@ body {
   width: 514px;
 }
 
-.main {
-  padding-top: 324px;
-}
-
 .menu__li {
   font-size: 16px;
   font-weight: 400;
@@ -206,8 +261,6 @@ body {
   width: 183px;
   height: 242px;
   color: var(--primary-text-color);
-  margin-left: 302px;
-  display: flex;
 }
 
 .menu__li-two {
@@ -218,8 +271,4 @@ body {
   width: 185px;
   height: 198px;
   color: var(--primary-text-color);
-  display: flex;
-  margin-left: 517px;
-  margin-top: -422px;
-  display: flex;
 }/*# sourceMappingURL=styles.css.map */

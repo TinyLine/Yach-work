@@ -271,4 +271,47 @@ ul {
   width: 185px;
   height: 198px;
   color: var(--primary-text-color);
+}
+
+.img-yacht-one {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+}
+
+.img-yacht-two {
+  margin-top: -225px;
+  margin-left: 10px;
+}
+
+.img-yacht-three {
+  margin-left: 372px;
+  margin-top: -32px;
+}
+
+.img__text__title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -112px;
+  font-size: 100px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -3.4px;
+  color: var(--primary-text-color);
+  width: 889px;
+}
+
+.hero__text__img {
+  margin-left: 152px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -0.81px;
+  padding: 14px 28px;
+  border-radius: 60px;
+  cursor: pointer;
+  color: var(--primary-text-color);
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-text-color);
 }/*# sourceMappingURL=styles.css.map */

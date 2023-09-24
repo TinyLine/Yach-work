@@ -1,7 +1,45 @@
-.list-team {
+
+.cards{
+
+}
+
+
+.our-list {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
 }
 
+.list-card {
+    flex-basis: calc((100% - 30px * 1) / 1);
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    font-size: 16px;
+    line-height: 1.18;
+    background: #1F212D;
+    border-radius: 24px;
+
+}
+
+
+.list-card__info {
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+    .list-card__name {
+        margin-bottom: 10px;
+        font-weight: 500;
+       
+    }
+    
+    .list-card__position {
+        margin: 0;
+    }
+
+    .img-card{
+      margin-left: auto;
+      margin-right: auto;
+    }

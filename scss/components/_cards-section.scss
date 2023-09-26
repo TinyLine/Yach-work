@@ -5,20 +5,16 @@
 
 
 .our-list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-    margin-top: -30px;
+display: flex;
+justify-content: space-evenly;
 }
 
 .list-card {
-    flex-basis: calc((100% - 30px * 1) / 1);
-    margin-left: 30px;
-    margin-top: 30px;
+
     margin-bottom: -10px;
     font-size: 16px;
     line-height: 1.18;
-    background: #1F212D;
+    background-color: #1F212D;
     border-radius: 24px;
 
 }

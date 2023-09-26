@@ -230,6 +230,7 @@ ul {
 }
 
 .main {
+  padding-bottom: 178px;
   padding-top: 324px;
 }
 
@@ -290,9 +291,11 @@ ul {
 }
 
 .img__text__title {
+  position: relative;
+  z-index: 100;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -112px;
+  margin-top: -312px;
   font-size: 100px;
   font-weight: 500;
   line-height: 110%;
@@ -318,19 +321,14 @@ ul {
 
 .our-list {
   display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
+  justify-content: space-evenly;
 }
 
 .list-card {
-  flex-basis: calc((100% - 30px) / 1);
-  margin-left: 30px;
-  margin-top: 30px;
   margin-bottom: -10px;
   font-size: 16px;
   line-height: 1.18;
-  background: #1F212D;
+  background-color: #1F212D;
   border-radius: 24px;
 }
 

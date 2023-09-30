@@ -325,6 +325,7 @@ ul {
 }
 
 .list-card {
+  padding: 16px 16px 32px 16px;
   margin-bottom: -10px;
   font-size: 16px;
   line-height: 1.18;
@@ -338,15 +339,52 @@ ul {
 }
 
 .list-card__name {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
   margin-bottom: 10px;
   font-weight: 500;
+  color: white;
 }
 
 .list-card__position {
-  margin: 0;
+  color: var(--white, #F6F5EF);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118%;
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+}
+
+.info-box-one {
+  display: flex;
+  justify-content: space-between;
 }
 
 .img-card {
   margin-left: auto;
   margin-right: auto;
+}
+
+.info__list {
+  margin-left: 32px;
+  margin-top: 32px;
+}
+
+.info__text {
+  color: var(--white, #F6F5EF);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118%;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.info-box {
+  display: flex;
 }/*# sourceMappingURL=styles.css.map */

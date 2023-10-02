@@ -391,19 +391,49 @@ ul {
 }
 
 .diving-img {
-  margin-right: 536px;
+  margin-right: 136px;
+  margin-top: 136px;
 }
 
 .fishing-img {
-  margin-top: 204px;
-  margin-left: 80px;
+  margin-left: 780px;
+  margin-top: -448px;
 }
 
 .subnatithing-img {
-  margin-right: auto;
-  margin-top: 700px;
+  margin-top: 64px;
+  margin-left: 352px;
 }
 
 .flex-rest {
   display: flex;
+}
+
+.button-rest {
+  color: var(--dark-blue, #11131F);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -0.81px;
+  display: inline-flex;
+  padding: 14px 28px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 60px;
+  background: var(--white, #F6F5EF);
+  position: absolute;
+  margin-top: -62px;
+  margin-left: 32px;
+}
+
+.title-rent {
+  color: var(--white, #F6F5EF);
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -2.7px;
+  width: 282px;
+  margin-top: 164px;
 }/*# sourceMappingURL=styles.css.map */

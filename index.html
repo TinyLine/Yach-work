@@ -84,7 +84,7 @@
     <section class="main">
       <div class="container">
         <div class="main__box">
-          <p class="main__text"><span>Yacht Adventures</span> fleet is here to take you on the
+          <p class="main__text"><span class="color-yacht" >Yacht Adventures</span> fleet is here to take you on the
             ultimate
             adventure. Each yacht is hand-picked for its comfort, style, and performance.</p>
           <ul class="main__ul list">
@@ -586,11 +586,12 @@
     </section>
   </main>
 
-  <section class="section">
+  <section class="rent">
     <div class="container">
+      <div>
     <h1 class="title-rent">Rent   a yacht now</h1>
       <img src="./imgs/alone-yaht.png" alt="alone-yacht">
-
+    </div>
 
       
       <form action="">
@@ -598,8 +599,8 @@
         <div class="form__label">
           <label for="username">Full Name</label>
         </div>
-        <div class="form__input">
-        <input type="text" name="username" id="username"/>
+        <div >
+        <input class="form__input" type="text" name="username" id="username"/>
         
       </div>
     </div>
@@ -607,8 +608,8 @@
     <div class="form__label">
       <label for="email">Email</label>
     </div>
-      <div class="form-input"> 
-        <input type="email" id="email"/>
+      <div > 
+        <input class="form__input" type="email" id="email"/>
       </div>
       </div>
 
@@ -616,31 +617,36 @@
     <div class="form__label">
         <label for="tel">Phone number</label>
       </div>
-        <div class="form__input">
-        <input type="tel" id="tel">
+        <div>
+        <input class="form__input" type="tel" id="tel">
         
       </div>
     </div>
-      <div class="form-list">
-        <label for="username">Comment</label>
-        <textarea class="feedback" name="feedback" rows="5"></textarea>
+      <div>
+        <label class="form__label" for="username">Comment</label>
+        <textarea class="form__input" name="feedback" rows="5" ></textarea>
 
       </div>
-    
+      <button class="button-form">Send
+        <svg class="svg-button-form">
+          <use href="./imgs/symbol-defs.svg#icon-arrow"></use>
+        </svg> 
+      </button>
+      
       </form>
-
+      
 
   </div>
   </section>
 
 
-  <section>
+  <section class="text">
     <div class="container">
-    <div class="">
-    <h1 class="">Yacht Adventures take pride in providing the best possible service and experience to our customers</h1>
+    <div>
+    <h1 class="color-text-title"><span class="color-yacht">Yacht Adventures</span> take pride in providing the best possible service and experience to our customers</h1>
   </div>
-  <div class="">
-    <p class="">Our customers have enjoyed unforgettable moments on our yachts. Don't just take our word for it - read on to find out what they have to say about their journey with us.</p>
+  <div class="text-position">
+    <p class="color-text-two">Our customers have enjoyed unforgettable moments on our yachts. Don't just take our word for it - read on to find out what they have to say about their journey with us.</p>
   </div>
 </div>
   </section>

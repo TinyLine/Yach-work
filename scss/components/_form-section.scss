@@ -21,6 +21,7 @@ display: block;
 }
 
 .form__input{
+    resize: none;
     border: none;
     background-color: #11131F;
     border-bottom: 1px #F6F5EF solid;
@@ -55,3 +56,4 @@ display: block;
     margin-top: 22px;
 fill: var(--white, #F6F5EF);
 }
+

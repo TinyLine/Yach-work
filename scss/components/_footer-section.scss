@@ -1,0 +1,33 @@
+.footer-section{
+  padding-top: 164px;
+  padding-bottom: 300px;
+}
+
+.border{
+    border-bottom: 1px #F6F5EF33 solid;;
+    margin-left: 32px;
+    
+}
+
+.position-title-footer{
+    margin-top: 69px;
+    margin-left: 32px;
+}
+
+.info{
+display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+  gap: 24px;
+}
+
+.footer__info{
+color: var(--white, #F6F5EF);
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 118%; 
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}

@@ -26,10 +26,11 @@
   display: flex;
 }
 
-.title-header {
+.title-yacht {
   color: var(--primary-text-color);
   text-decoration: none;
   margin-right: 781px;
+  text-transform: uppercase;
 }
 
 .menu__list {
@@ -466,6 +467,7 @@ ul {
 }
 
 .form__input {
+  resize: none;
   border: none;
   background-color: #11131F;
   border-bottom: 1px #F6F5EF solid;
@@ -584,4 +586,47 @@ ul {
 .img-team {
   margin-top: 20px;
   margin-bottom: 24px;
+}
+
+.box-team {
+  margin-left: -64px;
+  margin-right: -64px;
+}
+
+.img-scroll {
+  margin-left: auto;
+  margin-top: 64px;
+}
+
+.footer-section {
+  padding-top: 164px;
+  padding-bottom: 300px;
+}
+
+.border {
+  border-bottom: 1px rgba(246, 245, 239, 0.2) solid;
+  margin-left: 32px;
+}
+
+.position-title-footer {
+  margin-top: 69px;
+  margin-left: 32px;
+}
+
+.info {
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+  gap: 24px;
+}
+
+.footer__info {
+  color: var(--white, #F6F5EF);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 118%;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=styles.css.map */

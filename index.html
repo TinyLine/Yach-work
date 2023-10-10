@@ -598,65 +598,108 @@
 
   <section class="rent">
     <div class="container">
-      <h1 class="title-rent">Rent a yacht now</h1>
+      <div>
+    <h1 class="title-rent">Rent   a yacht now</h1>
       <img src="./imgs/alone-yaht.png" alt="alone-yacht">
+    </div>
 
-
-
-      <form action="">
-        <div class="form-back">
-          <div class="form__label">
-            <label for="username">Full Name</label>
-          </div>
-          <div class="form__input">
-            <input type="text" name="username" id="username" />
-
-          </div>
+      
+    <form action="">
+      <div class="form-back">
+        <div class="form__label">
+          <label for="username">Full Name</label>
         </div>
-        <div class="form-back">
-          <div class="form__label">
-            <label for="email">Email</label>
-          </div>
-          <div class="form-input">
-            <input type="email" id="email" />
-          </div>
-        </div>
+        <div>
+        <input class="form__input" type="text" name="username" id="username">
+        
+      </div>
+    </div>
+    <div class="form-back">
+    <div class="form__label">
+      <label for="email">Email</label>
+    </div>
+      <div> 
+        <input class="form__input" type="email" id="email">
+      </div>
+      </div>
 
-        <div class="form-back">
-          <div class="form__label">
-            <label for="tel">Phone number</label>
-          </div>
-          <div class="form__input">
-            <input type="tel" id="tel">
+      <div class="form-back">
+    <div class="form__label">
+        <label for="tel">Phone number</label>
+      </div>
+        <div>
+        <input class="form__input" type="tel" id="tel">
+        
+      </div>
+    </div>
+      <div>
+        <label class="form__label" for="username">Comment</label>
+        <textarea class="form__input" name="feedback" rows="5"></textarea>
 
-          </div>
-        </div>
-        <div class="form-list">
-          <label for="username">Comment</label>
-          <textarea class="feedback" name="feedback" rows="5"></textarea>
-
-        </div>
-
+      </div>
+      <button class="button-form">Send
+        <svg class="svg-button-form">
+          <use href="./imgs/symbol-defs.svg#icon-arrow"></use>
+        </svg> 
+      </button>
+      
       </form>
+      
 
-
-    </div>
+  </div>
   </section>
+<section class="text">
+  <div class="container">
+    <div>
+    <h1 class="color-text-title"><span class="color-yacht">Yacht Adventures</span> take pride in providing the best possible service and experience to our customers</h1>
+  </div>
+  <div class="text-position">
+    <p class="color-text-two">Our customers have enjoyed unforgettable moments on our yachts. Don't just take our word for it - read on to find out what they have to say about their journey with us.</p>
+  </div>
+</div>
+</section>
 
+<section class="team">
+  <div class="container">
+   <div class="box-team">
+ <ul class="our-list list">
+   <li class="team-card">
+     <img class="img-team" src="./imgs/team-one.png" alt="team">
+   <div class="info-box-one">
+     <h2 class="team-name">John Wax</h2>
+   </div>
+   <div class="info-box"> 
+     <p class="team-text">I rented the Lagoon 620 with my family for a week-long vacation and it was the best decision ever. 
+     The yacht was spacious, comfortable, and luxurious, and the crew took care of everything.</p>
+  </div></li>
 
-  <section class="text">
-    <div class="container">
-      <div class="">
-        <h1 class="">Yacht Adventures take pride in providing the best possible service and experience to our customers
-        </h1>
-      </div>
-      <div class="">
-        <p class="">Our customers have enjoyed unforgettable moments on our yachts. Don't just take our word for it -
-          read on to find out what they have to say about their journey with us.</p>
-      </div>
-    </div>
+     <li class="team-card">
+       <img class="img-team" src="./imgs/team-two.png" alt="team">
+     <div class="info-box-one">
+       <h2 class="team-name">Victoria Romashenko</h2>
+     </div>
+     <div class="info-box"> 
+       <p class="team-text">The Sunseeker Manhattan 66 was the perfect choice for our romantic getaway. 
+         The yacht was beautifully designed, with all the amenities we needed, and the crew was attentive and friendly. </p>
+    </div></li>
+
+     <li class="team-card">
+       <img class="img-team" src="./imgs/team-three.png" alt="team">
+     <div class="info-box-one">
+       <h2 class="team-name">Ihor Trachuk</h2>
+     </div>
+     <div class="info-box"> 
+       <p class="team-text">The Azimut 80 was the most luxurious yacht I've ever been on. 
+         The cabins were spacious and elegant, and the outdoor areas were perfect for relaxing and entertaining. Worth every penny!</p>
+
+    </div></li>
+
+ </ul>
+</div>
+
+<img class="img-scroll" src="./imgs/arrow-up.png" alt="">
+  </div>
   </section>
-
 
    <footer class="footer-section">
     <div class="border"></div>
@@ -689,7 +732,23 @@
 
     </ul>
 
-    <h2>We in social</h2>
+    <h2 class="info-icons-footer">We in social</h2>
+   
+     <ul class="list footer-icon">
+      <li class="footer-icon__item"><a href="" class="footer-icon__link" target="_blank"><svg class="footer-icon__icon">
+            <use href="./imgs/symbol-defs.svg#icon-facebook"></use>
+          </svg></a></li>
+          <li class="footer-icon__item"><a href="" class="footer-icon__link" target="_blank"><svg class="footer-icon__icon">
+            <use href="./imgs/symbol-defs.svg#icon-instagram"></use>
+          </svg></a></li>
+          <li class="footer-icon__item"><a href="" class="footer-icon__link" target="_blank"><svg class="footer-icon__icon">
+            <use href="./imgs/symbol-defs.svg#icon-youtube"></use>
+          </svg></a></li>
+     </ul>
+  <ul class="text-down-position list">
+     <li class="text-down">2023. Yacht Adventures</li>
+     <li class="text-down">Privacy Police</li>
+  </ul>
   </div>
    </footer>
 

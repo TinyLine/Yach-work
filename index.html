@@ -11,6 +11,9 @@
     href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,500&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" />
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="./scss/styles.css" />
 </head>
 
@@ -84,7 +87,7 @@
     <section class="main">
       <div class="container">
         <div class="main__box">
-          <p class="main__text"><span class="color-yacht" >Yacht Adventures</span> fleet is here to take you on the
+          <p class="main__text"><span class="color-yacht">Yacht Adventures</span> fleet is here to take you on the
             ultimate
             adventure. Each yacht is hand-picked for its comfort, style, and performance.</p>
           <ul class="main__ul list">
@@ -115,581 +118,544 @@
     <!--  -->
     <section class="cards">
       <div class="container">
-        <ul class="our-list list">
-          <li class="list-card">
-            <img class="img-card" src="./imgs/imgs-card/yaht-4.png" alt="" width="322px">
-            <div class="list-card__info">
-            <div class="info-box-one">
-              <h2 class="list-card__name">Arrow</h2>
-              <p class="list-card__position">LUXURY YAHTS</p>
-            </div>
-            <div class="info-box">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <ul class="our-list list">
+                <li class="list-card">
+                  <img class="img-card" src="./imgs/imgs-card/yaht-4.png" alt="" width="322px">
+                  <div class="list-card__info">
+                    <div class="info-box-one">
+                      <h2 class="list-card__name">Arrow</h2>
+                      <p class="list-card__position">LUXURY YAHTS</p>
+                    </div>
+                    <div class="info-box">
 
-              <ul class="info__list list">
-                <li class="info__item">
-                  <p class="info__text">LENGTH</p>
+                      <ul class="info__list list">
+                        <li class="info__item">
+                          <p class="info__text">LENGTH</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">BUILDER </p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">BUILT</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">GUESTS</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">PRICE</p>
+                        </li>
+                      </ul>
+
+                      <ul class="info__list list">
+                        <li class="info__item">
+                          <p class="info__text">48m(155ft) </p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">Admiral</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">2021</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">11 in 5 cabins</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">€33,500,000</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </li>
-                <li class="info__item">
-                  <p class="info__text">BUILDER </p>
+                <li class="list-card">
+                  <img class="img-card" src="./imgs/imgs-card/yaht-5.png" alt="" width="322px">
+                  <div class="list-card__info">
+                    <div class="info-box-one">
+                      <h2 class="list-card__name">BENETTI OASIS 40M BO122</h2>
+                      <p class="list-card__position">LUXURY YAHTS</p>
+                    </div>
+                    <div class="info-box">
+
+                      <ul class="info__list list">
+                        <li class="info__item">
+                          <p class="info__text">LENGTH</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">BUILDER </p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">BUILT</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">GUESTS</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">PRICE</p>
+                        </li>
+                      </ul>
+
+                      <ul class="info__list list">
+                        <li class="info__item">
+                          <p class="info__text">41m (133ft)</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">Benetti</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">2025</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">10 in 5 cabins</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">€23,210,000</p>
+                        </li>
+                      </ul>
+
+                    </div>
+                  </div>
                 </li>
-                <li class="info__item">
-                  <p class="info__text">BUILT</p>
-                </li>
-                <li class="info__item">
-                  <p class="info__text">GUESTS</p>
-                </li>
-                <li class="info__item">
-                  <p class="info__text">PRICE</p>
+                <li class="list-card">
+                  <img class="img-card" src="./imgs/imgs-card/yaht-6.png" alt="" width="322px">
+                  <div class="list-card__info">
+                    <div class="info-box-one">
+                      <h2 class="list-card__name">BELLE ANNA</h2>
+                      <p class="list-card__position">LUXURY YAHTS</p>
+                    </div>
+                    <div class="info-box">
+
+                      <ul class="info__list list">
+                        <li class="info__item">
+                          <p class="info__text">LENGTH</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">BUILDER </p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">BUILT</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">GUESTS</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">PRICE</p>
+                        </li>
+                      </ul>
+
+                      <ul class="info__list list">
+                        <li class="info__item">
+                          <p class="info__text">50m(155ft)</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">ISA</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">2012</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">12 in 6 cabins</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">€21,000,000</p>
+                        </li>
+                      </ul>
+
+
+                    </div>
+                  </div>
                 </li>
               </ul>
+            </div>
 
-              <ul class="info__list list">
-                <li class="info__item">
-                  <p class="info__text">48m(155ft) </p>
+            <div class="swiper-slide">
+              <ul class="our-list list">
+                <li class="list-card">
+                  <img class="img-card" src="./imgs/imgs-card/yaht-7.png" alt="" width="322px">
+                  <div class="list-card__info">
+                    <div class="info-box-one">
+                      <h2 class="list-card__name">Ellen</h2>
+                      <p class="list-card__position">LUXURY YAHTS</p>
+                    </div>
+                    <div class="info-box">
+
+                      <ul class="info__list list">
+                        <li class="info__item">
+                          <p class="info__text">LENGTH</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">BUILDER </p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">BUILT</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">GUESTS</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">PRICE</p>
+                        </li>
+                      </ul>
+
+                      <ul class="info__list list">
+                        <li class="info__item">
+                          <p class="info__text">40m (132ft)</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">Perini Navi</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">2001 / 2016 (refitted)</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">9 in 4 cabins</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">€9,300,000</p>
+                        </li>
+                      </ul>
                 </li>
-                <li class="info__item">
-                  <p class="info__text">Admiral</p>
+                <li class="list-card">
+                  <img class="img-card" src="./imgs/imgs-card/yaht-8.png" alt="" width="322px">
+                  <div class="list-card__info">
+                    <div class="info-box-one">
+                      <h2 class="list-card__name">MIRAGE 401</h2>
+                      <p class="list-card__position">LUXURY YAHTS</p>
+                    </div>
+                    <div class="info-box">
+
+                      <ul class="info__list list">
+                        <li class="info__item">
+                          <p class="info__text">LENGTH</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">BUILDER </p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">BUILT</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">GUESTS</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">PRICE</p>
+                        </li>
+                      </ul>
+
+                      <ul class="info__list list">
+                        <li class="info__item">
+                          <p class="info__text">38m (125ft)</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">Gianetti Custom Yachts</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">2024</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">10 in 5 cabins</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">€13,500,000</p>
+                        </li>
+                      </ul>
+
+
+                    </div>
+                  </div>
                 </li>
-                <li class="info__item">
-                  <p class="info__text">2021</p>
-                </li>
-                <li class="info__item">
-                  <p class="info__text">11 in 5 cabins</p>
-                </li>
-                <li class="info__item">
-                  <p class="info__text">€33,500,000</p>
+                <li class="list-card">
+                  <img class="img-card" src="./imgs/imgs-card/yaht-9.png" alt="" width="322px">
+                  <div class="list-card__info">
+                    <div class="info-box-one">
+                      <h2 class="list-card__name">KING</h2>
+                      <p class="list-card__position">LUXURY YAHTS</p>
+                    </div>
+                    <div class="info-box">
+
+                      <ul class="info__list list">
+                        <li class="info__item">
+                          <p class="info__text">LENGTH</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">BUILDER </p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">BUILT</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">GUESTS</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">PRICE</p>
+                        </li>
+                      </ul>
+
+                      <ul class="info__list list">
+                        <li class="info__item">
+                          <p class="info__text">33m (109ft)</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">Overmarine</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">2004 / 2018 (refitted)</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">9 in 4 cabins</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">€1,850,000</p>
+                        </li>
+                      </ul>
+
+
+                    </div>
+                  </div>
                 </li>
               </ul>
-              
-              
             </div>
-            </div>
-          </li>
-          <li class="list-card">
-            <img class="img-card" src="./imgs/imgs-card/yaht-5.png" alt="" width="322px">
-            <div class="list-card__info">
-              <div class="info-box-one">
-              <h2 class="list-card__name">BENETTI OASIS 40M BO122</h2>
-              <p class="list-card__position">LUXURY YAHTS</p>
-              </div>
-              <div class="info-box">
 
-                <ul class="info__list list">
-                  <li class="info__item">
-                    <p class="info__text">LENGTH</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">BUILDER </p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">BUILT</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">GUESTS</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">PRICE</p>
-                  </li>
-                </ul>
-  
-                <ul class="info__list list">
-                  <li class="info__item">
-                    <p class="info__text">41m (133ft)</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">Benetti</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">2025</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">10 in 5 cabins</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">€23,210,000</p>
-                  </li>
-                </ul>
-                
-              </div>
-            </div>
-          </li>
-          <li class="list-card">
-            <img class="img-card" src="./imgs/imgs-card/yaht-6.png" alt="" width="322px">
-            <div class="list-card__info">
-              <div class="info-box-one">
-              <h2 class="list-card__name">BELLE ANNA</h2>
-              <p class="list-card__position">LUXURY YAHTS</p>
-            </div>
-              <div class="info-box">
+            <div class="swiper-slide">
+              <ul class="our-list list">
+                <li class="list-card">
+                  <img class="img-card" src="./imgs/imgs-card/yaht-10.png" alt="" width="322px">
+                  <div class="list-card__info">
+                    <div class="info-box-one">
+                      <h2 class="list-card__name">SALT</h2>
+                      <p class="list-card__position">LUXURY YAHTS</p>
+                    </div>
+                    <div class="info-box">
 
-                <ul class="info__list list">
-                  <li class="info__item">
-                    <p class="info__text">LENGTH</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">BUILDER </p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">BUILT</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">GUESTS</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">PRICE</p>
-                  </li>
-                </ul>
-  
-                <ul class="info__list list">
-                  <li class="info__item">
-                    <p class="info__text">50m(155ft)</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">ISA</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">2012</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">12 in 6 cabins</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">€21,000,000</p>
-                  </li>
-                </ul>
-                
-                
-              </div>
-            </div>
-          </li>
-        </ul>
-      
-        <ul class="our-list list">
-          <li class="list-card">
-            <img class="img-card" src="./imgs/imgs-card/yaht-7.png" alt="" width="322px">
-            <div class="list-card__info">
-              <div class="info-box-one">
-              <h2 class="list-card__name">Ellen</h2>
-              <p class="list-card__position">LUXURY YAHTS</p>
-            </div>
-              <div class="info-box">
+                      <ul class="info__list list">
+                        <li class="info__item">
+                          <p class="info__text">LENGTH</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">BUILDER </p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">BUILT</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">GUESTS</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">PRICE</p>
+                        </li>
+                      </ul>
 
-                <ul class="info__list list">
-                  <li class="info__item">
-                    <p class="info__text">LENGTH</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">BUILDER </p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">BUILT</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">GUESTS</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">PRICE</p>
-                  </li>
-                </ul>
-  
-                <ul class="info__list list">
-                  <li class="info__item">
-                    <p class="info__text">40m (132ft)</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">Perini Navi</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">2001 / 2016 (refitted)</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">9 in 4 cabins</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">€9,300,000</p>
-                  </li>
-                </ul>
-                
-                
-              </div>
-            </div>
-          </li>
-          <li class="list-card">
-            <img class="img-card" src="./imgs/imgs-card/yaht-8.png" alt="" width="322px">
-            <div class="list-card__info">
-              <div class="info-box-one">
-              <h2 class="list-card__name">MIRAGE 401</h2>
-              <p class="list-card__position">LUXURY YAHTS</p>
-            </div>
-              <div class="info-box">
-                
-                <ul class="info__list list">
-                  <li class="info__item">
-                    <p class="info__text">LENGTH</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">BUILDER </p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">BUILT</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">GUESTS</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">PRICE</p>
-                  </li>
-                </ul>
-  
-                <ul class="info__list list">
-                  <li class="info__item">
-                    <p class="info__text">38m (125ft)</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">Gianetti Custom Yachts</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">2024</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">10 in 5 cabins</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">€13,500,000</p>
-                  </li>
-                </ul>
-                
-                
-              </div>
-            </div>
-          </li>
-          <li class="list-card">
-            <img class="img-card" src="./imgs/imgs-card/yaht-9.png" alt="" width="322px">
-            <div class="list-card__info">
-              <div class="info-box-one">
-              <h2 class="list-card__name">KING</h2>
-              <p class="list-card__position">LUXURY YAHTS</p>
-            </div>
-              <div class="info-box">
+                      <ul class="info__list list">
+                        <li class="info__item">
+                          <p class="info__text">32m (105ft)</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">SanLorenzo</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">2019</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">11 in 5 cabins</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">€7,800,000</p>
+                        </li>
+                      </ul>
 
-                <ul class="info__list list">
-                  <li class="info__item">
-                    <p class="info__text">LENGTH</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">BUILDER </p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">BUILT</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">GUESTS</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">PRICE</p>
-                  </li>
-                </ul>
-  
-                <ul class="info__list list">
-                  <li class="info__item">
-                    <p class="info__text">33m (109ft)</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">Overmarine</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">2004 / 2018 (refitted)</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">9 in 4 cabins</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">€1,850,000</p>
-                  </li>
-                </ul>
-                
-                
-              </div>
-            </div>
-          </li>
-        </ul>
 
-        <ul class="our-list list">
-          <li class="list-card">
-            <img class="img-card" src="./imgs/imgs-card/yaht-10.png" alt="" width="322px">
-            <div class="list-card__info">
-              <div class="info-box-one">
-              <h2 class="list-card__name">SALT</h2>
-              <p class="list-card__position">LUXURY YAHTS</p>
-            </div>
-              <div class="info-box">
+                    </div>
+                  </div>
+                </li>
+                <li class="list-card">
+                  <img class="img-card" src="./imgs/imgs-card/yaht-11.png" alt="" width="322px">
+                  <div class="list-card__info">
+                    <div class="info-box-one">
+                      <h2 class="list-card__name">STORM</h2>
+                      <p class="list-card__position">LUXURY YAHTS</p>
+                    </div>
+                    <div class="info-box">
 
-                <ul class="info__list list">
-                  <li class="info__item">
-                    <p class="info__text">LENGTH</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">BUILDER </p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">BUILT</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">GUESTS</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">PRICE</p>
-                  </li>
-                </ul>
-  
-                <ul class="info__list list">
-                  <li class="info__item">
-                    <p class="info__text">32m (105ft)</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">SanLorenzo</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">2019</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">11 in 5 cabins</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">€7,800,000</p>
-                  </li>
-                </ul>
-                
-                
-              </div>
-            </div>
-          </li>
-          <li class="list-card">
-            <img class="img-card" src="./imgs/imgs-card/yaht-11.png" alt="" width="322px">
-            <div class="list-card__info">
-              <div class="info-box-one">
-              <h2 class="list-card__name">STORM</h2>
-              <p class="list-card__position">LUXURY YAHTS</p>
-            </div>
-              <div class="info-box">
+                      <ul class="info__list list">
+                        <li class="info__item">
+                          <p class="info__text">LENGTH</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">BUILDER </p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">BUILT</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">GUESTS</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">PRICE</p>
+                        </li>
+                      </ul>
 
-                <ul class="info__list list">
-                  <li class="info__item">
-                    <p class="info__text">LENGTH</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">BUILDER </p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">BUILT</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">GUESTS</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">PRICE</p>
-                  </li>
-                </ul>
-  
-                <ul class="info__list list">
-                  <li class="info__item">
-                    <p class="info__text">32m (103ft)</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">Overmarine</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">2005 / 2022 (refitted)</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">9 in 4 cabins</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">€2,900,000</p>
-                    
-                  </li>
-                </ul>
-                
-                
-              </div>
-            </div>
-          </li>
-          <li class="list-card">
-            <img class="img-card" src="./imgs/imgs-card/yaht-12.png" alt="" width="322px">
-            <div class="list-card__info">
-              <div class="info-box-one">
-              <h2 class="list-card__name">COLLU</h2>
-              <p class="list-card__position">LUXURY YAHTS</p>
-            </div>
-              <div class="info-box">
+                      <ul class="info__list list">
+                        <li class="info__item">
+                          <p class="info__text">32m (103ft)</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">Overmarine</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">2005 / 2022 (refitted)</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">9 in 4 cabins</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">€2,900,000</p>
 
-                <ul class="info__list list">
-                  <li class="info__item">
-                    <p class="info__text">LENGTH</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">BUILDER </p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">BUILT</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">GUESTS</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">PRICE</p>
-                  </li>
-                </ul>
-  
-                <ul class="info__list list">
-                  <li class="info__item">
-                    <p class="info__text">29m (96ft)</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">Ferretti</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">2014</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">10 in 5 cabins</p>
-                  </li>
-                  <li class="info__item">
-                    <p class="info__text">$4,300,000</p>
-                  </li>
-                </ul>
-                
-    
-              </div>
+                        </li>
+                      </ul>
+
+
+                    </div>
+                  </div>
+                </li>
+                <li class="list-card">
+                  <img class="img-card" src="./imgs/imgs-card/yaht-12.png" alt="" width="322px">
+                  <div class="list-card__info">
+                    <div class="info-box-one">
+                      <h2 class="list-card__name">COLLU</h2>
+                      <p class="list-card__position">LUXURY YAHTS</p>
+                    </div>
+                    <div class="info-box">
+
+                      <ul class="info__list list">
+                        <li class="info__item">
+                          <p class="info__text">LENGTH</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">BUILDER </p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">BUILT</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">GUESTS</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">PRICE</p>
+                        </li>
+                      </ul>
+
+                      <ul class="info__list list">
+                        <li class="info__item">
+                          <p class="info__text">29m (96ft)</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">Ferretti</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">2014</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">10 in 5 cabins</p>
+                        </li>
+                        <li class="info__item">
+                          <p class="info__text">$4,300,000</p>
+                        </li>
+                      </ul>
+
+
+                    </div>
+                  </div>
+                </li>
+              </ul>
             </div>
-          </li>
-        </ul>
-      </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
     </section>
     <!--  -->
     <section>
       <div class="container">
-        
-         <div class="diving-img">
+
+        <div class="diving-img">
           <img src="./imgs/diving.png" alt="diving">
           <button class="button-rest">Diving</button>
         </div>
-      <div class="fishing-img">
-          <img  src="./imgs/fishing.png" alt="fishing">
+        <div class="fishing-img">
+          <img src="./imgs/fishing.png" alt="fishing">
           <button class="button-rest">Fishing</button>
         </div>
-      <div  class="subnatithing-img">
-          <img  src="./imgs/sunbathing.png" alt="sunbathing">
+        <div class="subnatithing-img">
+          <img src="./imgs/sunbathing.png" alt="sunbathing">
           <button class="button-rest">Sunbathing</button>
         </div>
-    </div>
+      </div>
     </section>
   </main>
 
   <section class="rent">
     <div class="container">
-      <div>
-    <h1 class="title-rent">Rent   a yacht now</h1>
+      <h1 class="title-rent">Rent a yacht now</h1>
       <img src="./imgs/alone-yaht.png" alt="alone-yacht">
-    </div>
 
-      
+
+
       <form action="">
-      <div class="form-back">
-        <div class="form__label">
-          <label for="username">Full Name</label>
+        <div class="form-back">
+          <div class="form__label">
+            <label for="username">Full Name</label>
+          </div>
+          <div class="form__input">
+            <input type="text" name="username" id="username" />
+
+          </div>
         </div>
-        <div >
-        <input class="form__input" type="text" name="username" id="username"/>
-        
-      </div>
-    </div>
-    <div class="form-back">
-    <div class="form__label">
-      <label for="email">Email</label>
-    </div>
-      <div > 
-        <input class="form__input" type="email" id="email"/>
-      </div>
-      </div>
+        <div class="form-back">
+          <div class="form__label">
+            <label for="email">Email</label>
+          </div>
+          <div class="form-input">
+            <input type="email" id="email" />
+          </div>
+        </div>
 
-      <div class="form-back">
-    <div class="form__label">
-        <label for="tel">Phone number</label>
-      </div>
-        <div>
-        <input class="form__input" type="tel" id="tel">
-        
-      </div>
-    </div>
-      <div>
-        <label class="form__label" for="username">Comment</label>
-        <textarea class="form__input" name="feedback" rows="5" ></textarea>
+        <div class="form-back">
+          <div class="form__label">
+            <label for="tel">Phone number</label>
+          </div>
+          <div class="form__input">
+            <input type="tel" id="tel">
 
-      </div>
-      <button class="button-form">Send
-        <svg class="svg-button-form">
-          <use href="./imgs/symbol-defs.svg#icon-arrow"></use>
-        </svg> 
-      </button>
-      
+          </div>
+        </div>
+        <div class="form-list">
+          <label for="username">Comment</label>
+          <textarea class="feedback" name="feedback" rows="5"></textarea>
+
+        </div>
+
       </form>
-      
 
-  </div>
+
+    </div>
   </section>
 
 
   <section class="text">
     <div class="container">
-    <div>
-    <h1 class="color-text-title"><span class="color-yacht">Yacht Adventures</span> take pride in providing the best possible service and experience to our customers</h1>
-  </div>
-  <div class="text-position">
-    <p class="color-text-two">Our customers have enjoyed unforgettable moments on our yachts. Don't just take our word for it - read on to find out what they have to say about their journey with us.</p>
-  </div>
-</div>
-<section class="team">
-   <div class="container">
-    <div class="box-team">
-  <ul class="our-list list">
-    <li class="team-card">
-      <img class="img-team" src="./imgs/team-one.png" alt="team">
-    <div class="info-box-one">
-      <h2 class="team-name">John Wax</h2>
+      <div class="">
+        <h1 class="">Yacht Adventures take pride in providing the best possible service and experience to our customers
+        </h1>
+      </div>
+      <div class="">
+        <p class="">Our customers have enjoyed unforgettable moments on our yachts. Don't just take our word for it -
+          read on to find out what they have to say about their journey with us.</p>
+      </div>
     </div>
-    <div class="info-box"> 
-      <p class="team-text">I rented the Lagoon 620 with my family for a week-long vacation and it was the best decision ever. 
-      The yacht was spacious, comfortable, and luxurious, and the crew took care of everything.</p>
-   </li>
-
-      <li class="team-card">
-        <img class="img-team" src="./imgs/team-two.png" alt="team">
-      <div class="info-box-one">
-        <h2 class="team-name">Victoria Romashenko</h2>
-      </div>
-      <div class="info-box"> 
-        <p class="team-text">The Sunseeker Manhattan 66 was the perfect choice for our romantic getaway. 
-          The yacht was beautifully designed, with all the amenities we needed, and the crew was attentive and friendly. </p>
-     </li>
-
-      <li class="team-card">
-        <img class="img-team" src="./imgs/team-three.png" alt="team">
-      <div class="info-box-one">
-        <h2 class="team-name">Ihor Trachuk</h2>
-      </div>
-      <div class="info-box"> 
-        <p class="team-text">The Azimut 80 was the most luxurious yacht I've ever been on. 
-          The cabins were spacious and elegant, and the outdoor areas were perfect for relaxing and entertaining. Worth every penny!</p>
-
-     </li>
-
-  </ul>
-</div>
-
-<img class="img-scroll" src="./imgs/arrow-up.png" alt="">
-   </div>
-   </section>
+  </section>
 
 
    <footer class="footer-section">
@@ -723,31 +689,16 @@
 
     </ul>
 
-    <h2 class="info-icons-footer">We in social</h2>
-      <ul class="list social-icon">
-        <li class="social-icon__item"><a href="" class="footer-icon__link" target="_blank"><svg
-              class="social-icon__icon">
-              <use href="./imgs/symbol-defs.svg#icon-facebook"></use>
-            </svg></a></li>
-            <li class="social-icon__item"><a href="" class="footer-icon__link" target="_blank"><svg class="social-icon__icon">
-              <use href="./img/icons/sprite.svg#icon-facebook-2"></use>
-            </svg></a></li>
-            <li class="social-icon__item"><a href="" class="footer-icon__link" target="_blank"><svg class="social-icon__icon">
-              <use href="./img/icons/sprite.svg#icon-facebook-4"></use>
-            </svg></a></li>
-            <li class="social-icon__item"><a href="" class="footer-icon__link" target="_blank"><svg class="social-icon__icon">
-              <use href="./img/icons/sprite.svg#icon-facebook-3"></use>
-            </svg></a></li>
-        </ul>
+    <h2>We in social</h2>
   </div>
    </footer>
 
   
 
-  
+
 
 
 </body>
-<script src="./script.js" src="module"></script>
+<script src="./js/slider.js" type="module"></script>
 
 </html>

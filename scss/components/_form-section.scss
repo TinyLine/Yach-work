@@ -1,4 +1,27 @@
+.form{
+   
+    
+   
+    
 
+}
+
+.form__label{
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; 
+letter-spacing: -0.72px;
+color: #F6F5EF;
+    
+}
+
+.form__input{
+    border-bottom: 15px;
+    width: 443px;
+    height: 1px;
+    
+}
 
 .form-back{
     display: flex;
@@ -8,52 +31,4 @@
     
 }
 
-.form__label{
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 120%; 
-letter-spacing: -0.72px;
-margin-top: 16px;
-color: #F6F5EF;
-display: block;
-    
-}
-
-.form__input{
-    resize: none;
-    border: none;
-    background-color: #11131F;
-    border-bottom: 1px #F6F5EF solid;
-    width: 443px;
-}
-
-
-
-.button-form{
-    margin-top: 64px;
-    display: flex;
-    padding: 0px 23px;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    border-radius: 60px;
-    border: 1px solid var(--white, #F6F5EF); 
-    background-color: #11131F;
-    color: var(--white, #F6F5EF);
-    font-size: 18px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: 110%;
-   letter-spacing: -0.81px;
-   cursor: pointer;
-}
-
-.svg-button-form{
-    width: 44px;
-    height: 33.66px;
-    font-size: 18px;
-    margin-top: 22px;
-fill: var(--white, #F6F5EF);
-}
 

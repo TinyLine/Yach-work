@@ -13,7 +13,7 @@
 }
 
 .swiper-slide img {
-  width: 58%;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -33,12 +33,12 @@
 
 .our-list {
 display: flex;
-justify-content: space-evenly;
+gap: 16px;
 }
 
 .list-card {
   padding: 16px 16px 32px 16px;
-  margin-bottom: 40px;
+  margin-bottom: 120px;
   font-size: 16px;
   line-height: 1.18;
   background-color: #1f212d;

@@ -1,34 +1,29 @@
-.form{
-   
-    
-   
-    
-
+.form {
 }
 
-.form__label{
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 120%; 
-letter-spacing: -0.72px;
-color: #F6F5EF;
-    
+.form-back {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
 }
 
-.form__input{
-    border-bottom: 15px;
-    width: 443px;
-    height: 1px;
-    
+.form__label {
+    display: block;
+margin-top: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.72px;
+  color: #f6f5ef;
 }
 
-.form-back{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-    
+.form__input {
+  resize: none;
+  border: none;
+  background-color: #11131f;
+  border-bottom: 1px #f6f5ef solid;
+  width: 443px;
+
 }
-
-

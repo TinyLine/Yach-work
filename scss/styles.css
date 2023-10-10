@@ -319,6 +319,37 @@ ul {
   border: 1px solid var(--primary-text-color);
 }
 
+.swiper {
+  width: 1000px;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 58%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: -40 !important;
+  left: auto;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 0px !important;
+  right: auto;
+}
+
 .our-list {
   display: flex;
   justify-content: space-evenly;
@@ -329,7 +360,7 @@ ul {
   margin-bottom: 40px;
   font-size: 16px;
   line-height: 1.18;
-  background-color: #1F212D;
+  background-color: #1f212d;
   border-radius: 24px;
   height: 548px;
 }
@@ -352,7 +383,7 @@ ul {
 }
 
 .list-card__position {
-  color: var(--white, #F6F5EF);
+  color: var(--white, #f6f5ef);
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -377,7 +408,7 @@ ul {
 }
 
 .info__text {
-  color: var(--white, #F6F5EF);
+  color: var(--white, #f6f5ef);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -427,6 +458,16 @@ ul {
   margin-left: 32px;
 }
 
+.rent {
+  padding-top: 164px;
+  padding-bottom: 164px;
+}
+
+.rent > .container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .title-rent {
   color: var(--white, #F6F5EF);
   font-size: 60px;
@@ -435,22 +476,7 @@ ul {
   line-height: 110%;
   letter-spacing: -2.7px;
   width: 282px;
-  margin-top: 164px;
-}
-
-.form__label {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 120%;
-  letter-spacing: -0.72px;
-  color: #F6F5EF;
-}
-
-.form__input {
-  border-bottom: 15px;
-  width: 443px;
-  height: 1px;
+  margin-bottom: 64px;
 }
 
 .form-back {
@@ -458,4 +484,23 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
+}
+
+.form__label {
+  display: block;
+  margin-top: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.72px;
+  color: #f6f5ef;
+}
+
+.form__input {
+  resize: none;
+  border: none;
+  background-color: #11131f;
+  border-bottom: 1px #f6f5ef solid;
+  width: 443px;
 }/*# sourceMappingURL=styles.css.map */

@@ -500,9 +500,8 @@ ul {
 }
 
 .form__input {
-  border-bottom: 15px;
+  border: none;
   width: 443px;
-  height: 1px;
   resize: none;
   background-color: rgb(17, 19, 31);
   border-bottom: 1px solid rgb(246, 245, 239);
@@ -645,6 +644,7 @@ ul {
 }
 
 .border {
+  width: 100%;
   border-bottom: 1px rgba(246, 245, 239, 0.2) solid;
   margin-left: 32px;
 }
@@ -685,7 +685,7 @@ ul {
 
 .footer-icon {
   display: flex;
-  margin-left: 1687px;
+  margin-left: 1000px;
   margin-top: 16px;
   gap: 16px;
 }

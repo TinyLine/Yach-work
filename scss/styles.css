@@ -628,6 +628,8 @@ ul {
 }
 
 .box-team {
+  display: flex;
+  justify-content: center;
   margin-left: -64px;
   margin-right: -64px;
 }
@@ -730,4 +732,9 @@ ul {
 .text-down-position {
   margin-top: 260px;
   text-align: center;
+}
+
+.box-footer {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=styles.css.map */

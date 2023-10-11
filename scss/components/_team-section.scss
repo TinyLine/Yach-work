@@ -1,6 +1,5 @@
 .team{
     padding-top: 64px;
-    padding-bottom: 164px;
 }
     
 
@@ -53,8 +52,14 @@ width: 320px;
     margin-right: -64px;
 }
 
-.img-scroll{
-    margin-left: auto;
-    margin-top: 64px;
+.scroll{
+margin-top: 32px;
+margin-left: 1120px;
+cursor: pointer;
+
+display: none;
 }
 
+.scroll--show{
+    display: block;
+}

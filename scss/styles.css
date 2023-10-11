@@ -651,14 +651,9 @@ ul {
 }
 
 .border {
+  margin-bottom: 64px;
   width: 100%;
   border-bottom: 1px rgba(246, 245, 239, 0.2) solid;
-  margin-left: 32px;
-}
-
-.position-title-footer {
-  margin-top: 69px;
-  margin-left: 32px;
 }
 
 .info {

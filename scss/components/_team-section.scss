@@ -54,14 +54,16 @@ width: 320px;
     margin-right: -64px;
 }
 
-.scroll{
-margin-top: 32px;
-margin-left: 1120px;
-cursor: pointer;
+.go-top {
+    position: fixed;
+    right: 100px;
+    top: 50%;
+    transform: translateY(50%);
+    cursor: pointer;
 
-display: none;
+    display: none;
 }
 
-.scroll--show{
+.go-top--show {
     display: block;
 }

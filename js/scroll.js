@@ -1,15 +1,15 @@
-const goTopBtn = document.querySelector('.scroll');
+const goTopBtn = document.querySelector(".go-top");
 
-goTopBtn.addEventListener('click', goTop);
-window.addEventListener('scroll', trackScroll);
+goTopBtn.addEventListener("click", goTop);
+window.addEventListener("scroll", trackScroll);
 
 function trackScroll() {
   const offset = window.pageYOffset;
   const coords = document.documentElement.clientHeight;
   if (offset > coords) {
-    goTopBtn.classList.add('scroll--show');
+    goTopBtn.classList.add("go-top--show");
   } else {
-    goTopBtn.classList.remove('scroll--show');
+    goTopBtn.classList.remove("go-top--show");
   }
 }
 
@@ -19,4 +19,3 @@ function goTop() {
     setTimeout(goTop, 0);
   }
 }
-

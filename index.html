@@ -636,7 +636,7 @@
           <label class="form__label" for="username">Comment</label>
           <textarea name="feedback" rows="5" class="form__input"></textarea>
         </div>
-        <button class="button-form">Send
+        <button class="button-form" type="button" data-action="open-modal">Send
           <svg class="svg-button-form">
             <use href="./imgs/symbol-defs.svg#icon-arrow"></use>
           </svg>
@@ -774,8 +774,16 @@
     </svg>
   </div>
 
-
+  <!-- modal -->
+<div class="backdrop js-backdrop">
+  <div class="modal">
+    <button type="submit"  class="button" data-action="close-modal">
+      Закрити
+  </button>
+  </div>
+</div>
 </body>
+<script src="./js/modal.js" type="module"></script>
 <script src="./js/scroll.js" type="module"></script>
 <script src="./js/slider.js" type="module"></script>
 

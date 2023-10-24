@@ -1,16 +1,63 @@
 .diving-img{
 margin-right: 136px;
 margin-top: 136px;
+
+@media screen and (min-width: 375px) {
+    width: 335px;
+    
+}
+
+@media screen and (min-width: 768px) {
+    width: 704px;
+}
+
+@media screen and (min-width: 1244px) {
+    width: 712px;
+ }
 }
 
 .fishing-img{
-    margin-left: 780px;
-    margin-top: -448px;
+    
+
+    @media screen and (min-width: 375px) {
+        width: 335px;
+        margin-right: 136px;
+        margin-top: 24px;
+    }
+
+@media screen and (min-width: 768px) {
+    margin-left: 336px;
+    width: 400px;
+    
+    
+}
+
+    @media screen and (min-width: 1244px) {
+        width: 440px;
+        margin-left: 775px;
+        margin-top: -429px;
+        
+     }
 }
 
 .subnatithing-img{
+
+   @media screen and (min-width: 375px) {
+    margin-right: 136px;
+    margin-top: 24px;
+    width: 335px;
+}
+
+@media screen and (min-width: 768px) {
+    margin-left: 76px;
+    width: 380px;
+}
+
+@media screen and (min-width: 1244px) {
     margin-top: 64px;
-   margin-left: 352px;
+    margin-left: 352px;
+    width: 436px;
+ }
 }
 
 .flex-rest{
@@ -19,19 +66,33 @@ margin-top: 136px;
 
 .button-rest{
 color: var(--dark-blue, #11131F);
-font-size: 18px;
+
 font-style: normal;
 font-weight: 700;
 line-height: 110%; 
-letter-spacing: -0.81px;
 display: inline-flex;
 padding: 14px 28px;
 align-items: flex-start;
 gap: 10px;
+margin-left: 32px;
 border-radius: 60px;
 background: var(--white, #F6F5EF);
 position: absolute;
 margin-top: -62px;
-margin-left: 32px;
+
 cursor: pointer;
+
+@media screen and (min-width: 375px) {
+    font-size: 14px;
+    letter-spacing: -0.63px;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1244px) {
+    font-size: 18px;
+    letter-spacing: -0.81px;
+ }
 }

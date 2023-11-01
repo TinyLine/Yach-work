@@ -89,3 +89,21 @@ width: 320px;
 .go-top--show {
     display: block;
 }
+
+.our-team {
+    display: flex;
+
+   @media screen and (min-width: 375px) {
+    gap: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    gap: 22px;
+    width: 728px;
+}
+
+@media screen and (min-width: 1244px) {
+    gap: 16px;
+    width: auto;
+ } 
+  }

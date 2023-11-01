@@ -995,6 +995,27 @@ ul {
   display: block;
 }
 
+.our-team {
+  display: flex;
+}
+@media screen and (min-width: 375px) {
+  .our-team {
+    gap: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .our-team {
+    gap: 22px;
+    width: 728px;
+  }
+}
+@media screen and (min-width: 1244px) {
+  .our-team {
+    gap: 16px;
+    width: auto;
+  }
+}
+
 .footer-section {
   padding-top: 164px;
   padding-bottom: 10px;

@@ -1011,8 +1011,9 @@ ul {
 }
 @media screen and (min-width: 1244px) {
   .our-team {
-    gap: 16px;
+    gap: 32px;
     width: auto;
+    margin-left: 41px;
   }
 }
 

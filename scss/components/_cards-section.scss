@@ -1,7 +1,21 @@
+
+
+
 // slider
 .swiper {
-  width: 1000px;
   height: 100%;
+
+  @media screen and (min-width: 375px) {
+    width: 1057px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 1115px;
+  }
+
+  @media screen and (min-width: 1244px) {
+    width: 1000px;
+  }
 }
 
 .swiper-wrappe {
@@ -17,7 +31,7 @@
   margin-left: 16px;
 
   @media screen and (min-width: 375px) {
-    flex-basis: calc((100% - 16px * 1) / 1);
+    flex-basis: calc((10% - 16px * 1) / 1);
   }
 
   @media screen and (min-width: 768px) {
@@ -38,8 +52,8 @@
 }
 
 .swiper-slide img {
-  width: 100%;
   object-fit: cover;
+
 }
 
 .swiper-button-next,
@@ -52,6 +66,7 @@
 .swiper-rtl .swiper-button-next {
   left: 0px !important;
   right: auto;
+     
 }
 
 //
@@ -60,14 +75,6 @@
   display: flex;
   gap: 16px;
 
-  @media screen and (min-width: 375px) {
-  }
-
-  @media screen and (min-width: 768px) {
-  }
-
-  @media screen and (min-width: 1244px) {
-  }
 }
 
 .list-card {

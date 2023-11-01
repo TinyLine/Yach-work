@@ -1,5 +1,5 @@
 .container {
-  width: 1244px;
+  width: 1144px;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
@@ -441,8 +441,22 @@ ul {
 }
 
 .swiper {
-  width: 1000px;
   height: 100%;
+}
+@media screen and (min-width: 375px) {
+  .swiper {
+    width: 1057px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .swiper {
+    width: 1115px;
+  }
+}
+@media screen and (min-width: 1244px) {
+  .swiper {
+    width: 1000px;
+  }
 }
 
 .swiper-wrappe {
@@ -459,7 +473,7 @@ ul {
 }
 @media screen and (min-width: 375px) {
   .swiper-wrappe > .swiper-slide {
-    flex-basis: calc((100% - 16px) / 1);
+    flex-basis: calc((10% - 16px) / 1);
   }
 }
 @media screen and (min-width: 768px) {
@@ -482,7 +496,6 @@ ul {
 }
 
 .swiper-slide img {
-  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -503,6 +516,7 @@ ul {
   display: flex;
   gap: 16px;
 }
+
 .list-card {
   padding: 16px 16px 32px 16px;
   margin-bottom: 133px;
@@ -931,16 +945,20 @@ ul {
 
 .team-card {
   padding: 16px 16px 32px 16px;
-  margin-bottom: 40px;
   font-size: 16px;
   line-height: 1.18;
   background-color: #1F212D;
   border-radius: 24px;
   height: 295px;
-  width: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media screen and (min-width: 1244px) {
+  .team-card {
+    width: 400px;
+    margin-bottom: 40px;
+  }
 }
 
 .img-team {
@@ -951,8 +969,17 @@ ul {
 .box-team {
   display: flex;
   justify-content: center;
-  margin-left: -64px;
   margin-right: -64px;
+}
+@media screen and (min-width: 375px) {
+  .box-team {
+    margin-left: -64px;
+  }
+}
+@media screen and (min-width: 1244px) {
+  .box-team {
+    margin-left: -64px;
+  }
 }
 
 .go-top {

@@ -4,6 +4,7 @@ body.show-modal .backdrop {
   opacity: 1;
   visibility: visible;
   pointer-events: initial;
+
 }
 
 body.show-modal .modal {
@@ -26,22 +27,41 @@ body.show-modal .modal {
   opacity: 0;
   visibility: hidden;
   transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
+
+ 
 }
 
 .modal {
   padding: 24px;
-  padding-left: 64px;
   padding-right: 24px;
   border-radius: 4px;
-  max-width: 570px;
-  min-height: 522px;
+  
   width: 100%;
-border-radius: 40px;
   background-color: #1F212D;
   
 
   transform: scale(1.1);
   transition: transform 200ms ease-in-out;
+
+  @media screen and (min-width: 375px) {
+    border-radius: 20px;
+    max-width: 335px;
+    min-height: 396px;
+}
+
+@media screen and (min-width: 768px) {
+  max-width: 570px;
+  min-height: 522px;
+  border-radius: 40px;
+  padding-left: 64px;
+}
+
+@media screen and (min-width: 1244px) {
+  max-width: 570px;
+  min-height: 522px;
+  border-radius: 40px;
+  padding-left: 64px;
+ } 
 }
 
 .button{
@@ -53,26 +73,69 @@ border-radius: 40px;
 .img-modal{
     margin-right: auto;
     margin-left: auto;
-    margin-top: 65px;
+    
+
+    @media screen and (min-width: 375px) {
+     
+        }
+        
+        @media screen and (min-width: 768px) {
+          margin-top: 65px;
+        }
+        
+        @media screen and (min-width: 1244px) {
+          margin-top: 65px;
+         } 
 }
 
 .modal-text{
     color: var(--white, #F6F5EF);
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+    margin-bottom: 64px;
+
+    @media screen and (min-width: 375px) {
+font-size: 14px;
+letter-spacing: -0.28px;
+width: 287px;
+margin-bottom: 20px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
     letter-spacing: -0.32px;
     width: 442px;
     margin-bottom: 64px;
+  }
+  
+  @media screen and (min-width: 1244px) {
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    width: 442px;
+    margin-bottom: 64px;
+   } 
 }
 
 .modal-title{
     color: var(--white, #F6F5EF);
-    font-size: 32px;
     font-style: normal;
     font-weight: 500;
     line-height: 120%; 
-    letter-spacing: -1.44px;
     margin-bottom: 16px;
+
+    @media screen and (min-width: 375px) {
+      font-size: 24px;
+      letter-spacing: -1.08px;
+        }
+        
+        @media screen and (min-width: 768px) {
+          letter-spacing: -1.44px;
+          font-size: 32px;
+        }
+        
+        @media screen and (min-width: 1244px) {
+          letter-spacing: -1.44px;
+          font-size: 32px;
+         } 
 }

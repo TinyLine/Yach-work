@@ -16,32 +16,41 @@ body.show-modal .modal {
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   width: 100vw;
-  height: 100vh;
+  height: 100vw;
   background: rgba(255, 0, 0, 0.25);
   z-index: 999;
-
   pointer-events: none;
   opacity: 0;
   visibility: hidden;
   transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
-
  
+  @media screen and (min-width: 375px) {
+     height: 350vh;
+    top: -270px;
+ }
+
+ @media screen and (min-width: 768px) {
+  height: 150vh;
+   top: 0;
+}
+
+ @media screen and (min-width: 1244px) {
+   height: 100vh;
+   top: 0;
+  } 
 }
 
 .modal {
   padding: 24px;
   padding-right: 24px;
   border-radius: 4px;
-  
   width: 100%;
   background-color: #1F212D;
-  
-
-  transform: scale(1.1);
-  transition: transform 200ms ease-in-out;
+ 
 
   @media screen and (min-width: 375px) {
     border-radius: 20px;
@@ -61,6 +70,8 @@ body.show-modal .modal {
   min-height: 522px;
   border-radius: 40px;
   padding-left: 64px;
+  transform: scale(1.1);
+  transition: transform 200ms ease-in-out;
  } 
 }
 

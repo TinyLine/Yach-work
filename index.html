@@ -18,7 +18,7 @@
 </head>
 
 <body class="body">
-  <!-- 
+ 
   <header class="header">
     <div class="container">
       <nav class="navigation">
@@ -48,10 +48,28 @@
           <li class="menu__list"><a href="" class="link menu__nav">REVIEVS</a></li>
         </ul>
       </nav>
+
+      
     </div>
+    <button class="button-mobile header__button--menu" data-menu-button>
+      <svg class="icon-mobile " aria-label="Переключатель меню">
+        <use class="menu-icon" href="./imgs/symbol-defs.svg#vector"></use>
+        <use class="menu-close" href=""></use>
+      </svg>
+    </button>
   </header>
 
+  <div class="mobile-menu" data-menu>
+    <ul class="list mobile-menu__list">
+      <li class="mobile-menu__item"><a class="link  mobile-menu__link">ABOUT</a>
+      </li>
+      <li class="mobile-menu__item"><a class="link  mobile-menu__link">YACHTS</a></li>
+      <li class="mobile-menu__item"><a class="link  mobile-menu__link">REVIEVS</a></li>
+    </ul>
+  </div>
+
   <main>
+    <!--  
     <section class="hero__menu">
       <div class="container">
         <div class="hero-card">
@@ -810,7 +828,7 @@
   </div>
   
 </body>
-
+<script src="./js/mobile.js" type="module"></script>
 <script src="./js/modal.js" type="module"></script>
 <script src="./js/scroll.js" type="module"></script>
 <script src="./js/slider.js" type="module"></script>

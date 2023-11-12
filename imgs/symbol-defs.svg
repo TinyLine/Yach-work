@@ -17,5 +17,8 @@
   <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8" d="M12.5 0.669922L18 5.00005L12.5 9.33018V5.75005L0 5.75005L0 4.25005L12.5 4.25005V0.669922Z"></path>
 </svg>
 </symbol>
+<symbol id="vector" viewBox="0 0 24 16">
+<path d="M0 2.66667V0H24V2.66667H0ZM0 9.33333H24V6.66667H0V9.33333ZM0 16H24V13.3333H0V16Z"></path>
+</symbol>
 </defs>
 </svg>

@@ -1,37 +1,93 @@
 .hero__menu {
     display: flex;
     position: relative;
-    margin-left: 980px;
-    padding-top: 118px;
     
+    
+    @media screen and (min-width: 375px) {
+        
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+
+@media screen and (min-width: 768px) {
+    
+}
+
+    @media screen and (min-width: 1244px) {
+        padding-top: 118px;
+        margin-left: 980px;
+     } 
 }
 .hero-card__icons{
     display: flex;
+
+      @media screen and (min-width: 375px) {
+        margin-top: 15px;
+        width: 135px;
+        height: 50px;
+        
+    }
+
+@media screen and (min-width: 768px) {
     
+}
+
+    @media screen and (min-width: 1244px) {
+       margin-top: unset;
+       width: unset;
+       height: unset;
+     } 
 }
 
 .hero__menu__title {
     color: var(--primary-text-color);
-    font-size: 60px;
     line-height: 110%;
     display: inline-flex;
     flex-direction: column;
     font-weight: 500;
-    width: 554px;
+    
+
+    @media screen and (min-width: 375px) {
+        font-size: 36px;
+        width: 332px;
+    }
+
+@media screen and (min-width: 768px) {
+    
 }
+
+    @media screen and (min-width: 1244px) {
+        font-size: 60px;
+        width: 554px;
+     } 
+}
+
 
 .hero__menu__text {
     color: var(--primary-text-color);
     font-style: normal;
-    font-size: 16px;
     font-weight: 400;
     line-height: 140%;
-    letter-spacing: -0.32px;
-    width: 539px;
-    line-height: 140%;
-    margin-top: -31px;
-    margin-bottom: 35px;
+    
 
+    @media screen and (min-width: 375px) {       
+        font-size: 14px;
+        letter-spacing: -0.28px;
+        width: 332px;
+        margin-top: -14px;
+    }
+
+@media screen and (min-width: 768px) {
+    
+}
+
+    @media screen and (min-width: 1244px) {
+        font-size: 16px;
+        letter-spacing: -0.32px;
+        width: 539px;
+        margin-bottom: 35px;
+        margin-top: -31px;
+     } 
 }
 
 .color__text {
@@ -74,20 +130,55 @@
 
 .hero-card{
     background-image: url(/imgs/mask-group.png);
-    width: 462.022px;
-    height: 651.365px;
-    flex-shrink: 0;
-    position: absolute;
-    left: -700px;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     padding: 20px;
     
-     
+    @media screen and (min-width: 375px) {  
+        background-size: contain;    
+        width: 363.327px;
+        height: 465.105px;
+        margin-top: 342px;
+        margin-left: -350px;
+        
+    }
+
+@media screen and (min-width: 768px) {
+    
 }
 
+    @media screen and (min-width: 1244px) {
+    flex-shrink: 0;
+    position: absolute;
+     left: -700px;
+     width: 462.022px;
+     height: 651.365px;
+     background-size: auto;
+     margin-top: -55px;
+     margin-left: -50px;
+     } 
+}
+
+
 .yacht-card{
-    margin-left: 20px;
-    margin-top: -45px;
+    
+
+    @media screen and (min-width: 375px) {
+        width: 287px;
+        height: 167px;
+        margin-bottom: 25px;
+        margin-top: -10px;
+    }
+
+@media screen and (min-width: 768px) {
+    
+}
+
+    @media screen and (min-width: 1244px) {
+        margin-top: -44px;
+        margin-bottom: unset;
+        height: unset;
+        width: unset;
+     } 
 }
 
 .title-card{
@@ -95,19 +186,58 @@ font-size: 60px;
 font-style: normal;
 font-weight: 400;
 line-height: 110%; 
-letter-spacing: -2.7px;
+
 margin-left: 35px;
+
+@media screen and (min-width: 375px) {
+    width: 104px;
+    height: 46px;
+    font-size: 48px;
+    letter-spacing: -2.16px;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1244px) {
+    width: unset;
+    height: unset;
+    font-size: unset;
+    letter-spacing: unset;
+    text-transform: unset;
+    letter-spacing: -2.7px;
+
+ } 
 }
 
 .bottom-text-card{
-font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 110%; 
-letter-spacing: -0.81px;
-width: 208px;
-height: 36px;
 display: inline-block;
+
+@media screen and (min-width: 375px) {
+    width: 169px;
+    height: 39px;
+    font-size: 14px;
+    line-height: 140%; 
+    letter-spacing: -0.63px;
+    margin-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1244px) {
+    font-size: 18px;
+    line-height: 110%;
+    letter-spacing: -0.81px;
+    width: 208px;
+    height: 36px;
+    margin-left: unset;
+ } 
 }
 
 .text-card-top{
@@ -119,9 +249,40 @@ letter-spacing: 0.56px;
 text-transform: uppercase;
 width: 96px;
 margin-top: 10px;
+
+@media screen and (min-width: 375px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1244px) {
+   
+ } 
 }
 
 .img-men-card{
-margin-left: 300px;
-margin-top: -80px;
+
+@media screen and (min-width: 375px) {
+    right: 50px;
+    width: 133px;
+    height: 133px;
+    margin-left: 195px;
+    
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1244px) {
+    right: unset;
+    width: unset;
+    height: unset;
+    margin-left: 300px;
+    margin-top: -80px;
+   
+ } 
 }

@@ -148,35 +148,80 @@ ul {
 .hero__menu {
   display: flex;
   position: relative;
-  margin-left: 980px;
-  padding-top: 118px;
+}
+@media screen and (min-width: 375px) {
+  .hero__menu {
+    padding-top: 40px;
+    padding-left: 20px;
+  }
+}
+@media screen and (min-width: 1244px) {
+  .hero__menu {
+    padding-top: 118px;
+    margin-left: 980px;
+  }
 }
 
 .hero-card__icons {
   display: flex;
 }
+@media screen and (min-width: 375px) {
+  .hero-card__icons {
+    margin-top: 15px;
+    width: 135px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 1244px) {
+  .hero-card__icons {
+    margin-top: unset;
+    width: unset;
+    height: unset;
+  }
+}
 
 .hero__menu__title {
   color: var(--primary-text-color);
-  font-size: 60px;
   line-height: 110%;
   display: inline-flex;
   flex-direction: column;
   font-weight: 500;
-  width: 554px;
+}
+@media screen and (min-width: 375px) {
+  .hero__menu__title {
+    font-size: 36px;
+    width: 332px;
+  }
+}
+@media screen and (min-width: 1244px) {
+  .hero__menu__title {
+    font-size: 60px;
+    width: 554px;
+  }
 }
 
 .hero__menu__text {
   color: var(--primary-text-color);
   font-style: normal;
-  font-size: 16px;
   font-weight: 400;
   line-height: 140%;
-  letter-spacing: -0.32px;
-  width: 539px;
-  line-height: 140%;
-  margin-top: -31px;
-  margin-bottom: 35px;
+}
+@media screen and (min-width: 375px) {
+  .hero__menu__text {
+    font-size: 14px;
+    letter-spacing: -0.28px;
+    width: 332px;
+    margin-top: -14px;
+  }
+}
+@media screen and (min-width: 1244px) {
+  .hero__menu__text {
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    width: 539px;
+    margin-bottom: 35px;
+    margin-top: -31px;
+  }
 }
 
 .color__text {
@@ -216,18 +261,46 @@ ul {
 
 .hero-card {
   background-image: url(/imgs/mask-group.png);
-  width: 462.022px;
-  height: 651.365px;
-  flex-shrink: 0;
-  position: absolute;
-  left: -700px;
   background-repeat: no-repeat;
   padding: 20px;
 }
+@media screen and (min-width: 375px) {
+  .hero-card {
+    background-size: contain;
+    width: 363.327px;
+    height: 465.105px;
+    margin-top: 342px;
+    margin-left: -350px;
+  }
+}
+@media screen and (min-width: 1244px) {
+  .hero-card {
+    flex-shrink: 0;
+    position: absolute;
+    left: -700px;
+    width: 462.022px;
+    height: 651.365px;
+    background-size: auto;
+    margin-top: -55px;
+    margin-left: -50px;
+  }
+}
 
-.yacht-card {
-  margin-left: 20px;
-  margin-top: -45px;
+@media screen and (min-width: 375px) {
+  .yacht-card {
+    width: 287px;
+    height: 167px;
+    margin-bottom: 25px;
+    margin-top: -10px;
+  }
+}
+@media screen and (min-width: 1244px) {
+  .yacht-card {
+    margin-top: -44px;
+    margin-bottom: unset;
+    height: unset;
+    width: unset;
+  }
 }
 
 .title-card {
@@ -235,19 +308,52 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: 110%;
-  letter-spacing: -2.7px;
   margin-left: 35px;
+}
+@media screen and (min-width: 375px) {
+  .title-card {
+    width: 104px;
+    height: 46px;
+    font-size: 48px;
+    letter-spacing: -2.16px;
+    text-transform: uppercase;
+  }
+}
+@media screen and (min-width: 1244px) {
+  .title-card {
+    width: unset;
+    height: unset;
+    font-size: unset;
+    letter-spacing: unset;
+    text-transform: unset;
+    letter-spacing: -2.7px;
+  }
 }
 
 .bottom-text-card {
-  font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 110%;
-  letter-spacing: -0.81px;
-  width: 208px;
-  height: 36px;
   display: inline-block;
+}
+@media screen and (min-width: 375px) {
+  .bottom-text-card {
+    width: 169px;
+    height: 39px;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -0.63px;
+    margin-left: 5px;
+  }
+}
+@media screen and (min-width: 1244px) {
+  .bottom-text-card {
+    font-size: 18px;
+    line-height: 110%;
+    letter-spacing: -0.81px;
+    width: 208px;
+    height: 36px;
+    margin-left: unset;
+  }
 }
 
 .text-card-top {
@@ -260,14 +366,26 @@ ul {
   width: 96px;
   margin-top: 10px;
 }
-
-.img-men-card {
-  margin-left: 300px;
-  margin-top: -80px;
+@media screen and (min-width: 375px) {
+  .img-men-card {
+    right: 50px;
+    width: 133px;
+    height: 133px;
+    margin-left: 195px;
+  }
+}
+@media screen and (min-width: 1244px) {
+  .img-men-card {
+    right: unset;
+    width: unset;
+    height: unset;
+    margin-left: 300px;
+    margin-top: -80px;
+  }
 }
 
 .main {
-  padding-top: 164px;
+  padding-top: 80px;
 }
 @media screen and (min-width: 375px) {
   .main {
@@ -1019,16 +1137,43 @@ ul {
 }
 
 .go-top {
+  background: var(--light-green, #93ABAE);
   position: fixed;
-  right: 100px;
   top: 50%;
   transform: translateY(50%);
   cursor: pointer;
   display: none;
 }
+@media screen and (min-width: 375px) {
+  .go-top {
+    border-radius: 5px;
+    height: 44px;
+    width: 44px;
+    height: 44px;
+  }
+}
+@media screen and (min-width: 1244px) {
+  .go-top {
+    width: 68px;
+    height: 68px;
+    right: 100px;
+  }
+}
 
 .go-top--show {
   display: block;
+}
+@media screen and (min-width: 375px) {
+  .go-top--show {
+    margin-left: 300px;
+    margin-top: 725px;
+  }
+}
+@media screen and (min-width: 1244px) {
+  .go-top--show {
+    margin-left: 291px;
+    margin-top: 225px;
+  }
 }
 
 .our-team {
@@ -1482,7 +1627,7 @@ body.show-modal .modal {
 }
 
 .mobile-menu__item {
-  margin-bottom: 35px;
+  margin-bottom: 15px;
 }
 
 .mobile-menu__link {

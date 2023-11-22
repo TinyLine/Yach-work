@@ -77,18 +77,55 @@ width: 320px;
 }
 
 .go-top {
+    background: var(--light-green, #93ABAE);
     position: fixed;
-    right: 100px;
     top: 50%;
     transform: translateY(50%);
     cursor: pointer;
 
     display: none;
+
+    @media screen and (min-width: 375px) {
+        border-radius: 5px;
+        height: 44px;
+        width: 44px;
+        height: 44px;
+    }
+
+@media screen and (min-width: 768px) {
+    
 }
 
-.go-top--show {
-    display: block;
+    @media screen and (min-width: 1244px) {
+        width: 68px;
+        height: 68px;
+        right: 100px;
+     } 
 }
+
+
+.go-top--show {
+
+    display: block;
+
+    
+    
+
+    @media screen and (min-width: 375px) {
+        margin-left: 300px;
+        margin-top: 725px;
+    }
+
+@media screen and (min-width: 768px) {
+    
+}
+
+    @media screen and (min-width: 1244px) {
+        margin-left: 291px;
+        margin-top: 225px;
+     } 
+}
+
 
 .our-team {
     display: flex;

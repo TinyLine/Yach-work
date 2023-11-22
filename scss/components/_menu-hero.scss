@@ -33,9 +33,9 @@
 }
 
     @media screen and (min-width: 1244px) {
-       margin-top: unset;
-       width: unset;
-       height: unset;
+        margin-top: unset;
+        width: unset;
+        height: unset;
      } 
 }
 
@@ -175,19 +175,19 @@
 
     @media screen and (min-width: 1244px) {
         margin-top: -44px;
-        margin-bottom: unset;
+        
         height: unset;
         width: unset;
      } 
 }
 
 .title-card{
-font-size: 60px;
-font-style: normal;
-font-weight: 400;
-line-height: 110%; 
-
-margin-left: 35px;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: -2.7px;
+    margin-left: 35px;
 
 @media screen and (min-width: 375px) {
     width: 104px;
@@ -202,11 +202,7 @@ margin-left: 35px;
 }
 
 @media screen and (min-width: 1244px) {
-    width: unset;
-    height: unset;
-    font-size: unset;
-    letter-spacing: unset;
-    text-transform: unset;
+    
     letter-spacing: -2.7px;
 
  } 

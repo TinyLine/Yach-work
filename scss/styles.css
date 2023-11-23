@@ -158,7 +158,7 @@ ul {
 @media screen and (min-width: 1244px) {
   .hero__menu {
     padding-top: 118px;
-    margin-left: 1570px;
+    margin-left: 1115px;
   }
 }
 
@@ -197,6 +197,7 @@ ul {
   .hero__menu__title {
     font-size: 60px;
     width: 554px;
+    margin-left: -100px;
   }
 }
 
@@ -221,6 +222,7 @@ ul {
     width: 539px;
     margin-bottom: 35px;
     margin-top: -31px;
+    margin-left: -100px;
   }
 }
 
@@ -242,6 +244,11 @@ ul {
   cursor: pointer;
   color: var(--primary-text-color);
   background: var(--light-green, #93ABAE);
+}
+@media screen and (min-width: 1244px) {
+  .hero__menu__button__one {
+    margin-left: -108px;
+  }
 }
 
 .hero__menu__button__two {

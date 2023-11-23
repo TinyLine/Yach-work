@@ -15,7 +15,7 @@
 
     @media screen and (min-width: 1244px) {
         padding-top: 118px;
-        margin-left: 1570px;
+        margin-left: 1115px;
      } 
 }
 .hero-card__icons{
@@ -45,6 +45,7 @@
     display: inline-flex;
     flex-direction: column;
     font-weight: 500;
+
     
 
     @media screen and (min-width: 375px) {
@@ -59,6 +60,7 @@
     @media screen and (min-width: 1244px) {
         font-size: 60px;
         width: 554px;
+        margin-left: -100px;
      } 
 }
 
@@ -87,6 +89,7 @@
         width: 539px;
         margin-bottom: 35px;
         margin-top: -31px;
+        margin-left: -100px;
      } 
 }
 
@@ -110,7 +113,19 @@
     cursor: pointer;
     color: var(--primary-text-color);
     background: var(--light-green, #93ABAE);
+    
+    
+    @media screen and (min-width: 375px) {       
+        
+    }
 
+@media screen and (min-width: 768px) {
+    
+}
+
+    @media screen and (min-width: 1244px) {
+        margin-left: -108px;
+     } 
 }
 
 .hero__menu__button__two {

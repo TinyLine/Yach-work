@@ -15,7 +15,7 @@
 
     @media screen and (min-width: 1244px) {
         padding-top: 118px;
-        margin-left: 980px;
+        margin-left: 1570px;
      } 
 }
 .hero-card__icons{
@@ -165,8 +165,9 @@
     @media screen and (min-width: 375px) {
         width: 287px;
         height: 167px;
-        margin-bottom: 25px;
-        margin-top: -10px;
+        margin-bottom: 20px;
+        margin-top: -5px;
+        
     }
 
 @media screen and (min-width: 768px) {
@@ -175,7 +176,7 @@
 
     @media screen and (min-width: 1244px) {
         margin-top: -44px;
-        
+        margin-bottom: unset;
         height: unset;
         width: unset;
      } 
@@ -187,7 +188,7 @@
     font-weight: 400;
     line-height: 110%;
     letter-spacing: -2.7px;
-    margin-left: 35px;
+    margin-left: 20px;
 
 @media screen and (min-width: 375px) {
     width: 104px;
@@ -212,6 +213,7 @@
 font-style: normal;
 font-weight: 400;
 display: inline-block;
+margin-left: 14px;
 
 @media screen and (min-width: 375px) {
     width: 169px;
@@ -219,7 +221,6 @@ display: inline-block;
     font-size: 14px;
     line-height: 140%; 
     letter-spacing: -0.63px;
-    margin-left: 5px;
 }
 
 @media screen and (min-width: 768px) {
@@ -232,7 +233,7 @@ display: inline-block;
     letter-spacing: -0.81px;
     width: 208px;
     height: 36px;
-    margin-left: unset;
+     margin-top: 40px;
  } 
 }
 
@@ -266,7 +267,7 @@ margin-top: 10px;
     width: 133px;
     height: 133px;
     margin-left: 195px;
-    
+    margin-top: -75px;
 }
 
 @media screen and (min-width: 768px) {

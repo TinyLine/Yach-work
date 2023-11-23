@@ -26,6 +26,7 @@
      @media screen and (min-width: 1244px) {
         display: flex;
         justify-content: space-between;
+        padding-top: 250px;
       } 
  }
 
@@ -49,25 +50,24 @@
 
 .main__text {
     color: var(--primary-text-color);
-    font-size: 32px;
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
     letter-spacing: -1.44px;
-    width: 514px;
 
     @media screen and (min-width: 375px) {
-        font-weight: 500;
        font-size: 24px;
        width: 335px;
     }
 
 @media screen and (min-width: 768px) {
-    
+    font-size: 32px;
+    width: 450px;
 }
 
     @media screen and (min-width: 1244px) {
-         
+        font-size: 32px;
+        width: 450px;
      } 
 }
 

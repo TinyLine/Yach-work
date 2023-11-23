@@ -1,7 +1,4 @@
 
-
-
-// slider
 .swiper {
   height: 100%;
 
@@ -59,7 +56,20 @@
 .swiper-button-next,
 .swiper-rtl .swiper-button-prev {
   right: -40 !important;
-  left: auto;
+  
+
+  @media screen and (min-width: 375px) {
+    left: 310px;
+}
+
+@media screen and (min-width: 768px) {
+  left: 720px;
+}
+
+@media screen and (min-width: 1244px) {
+    left: auto;
+   
+ } 
 }
 
 .swiper-button-prev,
@@ -69,7 +79,7 @@
      
 }
 
-//
+
 
 .our-list {
   display: flex;
@@ -128,7 +138,6 @@
   margin-top: 32px;
 }
 
-//  .info__item{
 
 .info__text {
   color: var(--white, #f6f5ef);
